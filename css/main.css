@@ -195,12 +195,28 @@ h2 ~ p {
 }
 .footer .drop-menu {
   bottom: 100%;
-  background-color: #fff;
+  padding: 0 0 1em;
+  text-align: left;
 }
 .footer .drop-menu:before {
+  display: none;
+}
+.footer .drop-menu:after {
+  border: 0.6em solid;
   border-color: #fff transparent transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 1em;
   bottom: -0.1em;
-  top: 0;
+  width: 0;
+}
+.footer .drop-menu a {
+  color: #333;
+}
+.footer .drop-menu li {
+  display: list-item;
+  margin: 0;
 }
 
 /* FOOTER STYLES */
