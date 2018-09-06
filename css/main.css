@@ -453,3 +453,19 @@ h2 ~ p {
   margin-top: 3em;
   padding-top: 2em;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .half-hero {
+    display: none;
+  }
+}
